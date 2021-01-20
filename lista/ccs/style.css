@@ -1,8 +1,9 @@
 body
 {
     width: auto;
-    margin: 10px;
-    background-color: #a55e7f;
+    margin: 30px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #header
 {
@@ -10,26 +11,33 @@ body
     margin: 50px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-style: solid;
     text-align: center;
-    font-weight: 100;
     font-size: 30px;
-    color: white;
-    font-family: cursive;
+    color: rgb(139, 17, 17);
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 .imagen
 {
     width: 100px;
 }
+
 #lista
 {
     width: auto;
-    font-size: 30px;
-
+    font-size: 25px;
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    display: inline-flex;
+}
+li
+{
+    display: inline-flex;
 }
 .titulo
 {
-    color:coral;
-    font-size: 40px;
+    display: inline-flex;
+    color:rgb(93, 4, 4);
+    font-size: 30px;
 }
