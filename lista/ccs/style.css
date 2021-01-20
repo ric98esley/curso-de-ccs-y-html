@@ -1,0 +1,35 @@
+body
+{
+    width: auto;
+    margin: 10px;
+    background-color: #a55e7f;
+}
+#header
+{
+    width: auto;
+    margin: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+}
+
+.imagen
+{
+    width: 100px;
+}
+#lista
+{
+    width: auto;
+    font-size: 30px;
+
+}
+.titulo
+{
+    color:coral;
+    font-size: 40px;
+}
