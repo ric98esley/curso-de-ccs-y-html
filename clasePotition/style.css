@@ -12,6 +12,7 @@ body {
 .box {
     padding-left: 20%;
     font-size: 1.6rem;
+    margin: auto;
 }
 .title {
     border-radius: 0.5rem;
@@ -30,7 +31,6 @@ body {
     background-color: gainsboro;
     margin: auto;
     border-radius: 5rem;
-    margin: auto;
     min-width: 0rem;
     max-width: 60rem;
     min-height: 30rem;
@@ -44,6 +44,7 @@ img {
 }
 .box-hi p {
     display: inline-block;
+    margin: auto;
 }
 .box-hi__atrib {
     position: relative;
