@@ -10,9 +10,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 .box {
-    padding: 2rem;
-    padding-left: 10rem;
-    font-size: 2.0rem;
+    padding-left: 20%;
+    font-size: 1.6rem;
 }
 .title {
     border-radius: 0.5rem;
@@ -32,10 +31,10 @@ body {
     margin: auto;
     border-radius: 5rem;
     margin: auto;
-    min-width: 50rem;
+    min-width: 0rem;
     max-width: 60rem;
-    min-height: 50rem;
-    padding: 7.5rem 5rem;
+    min-height: 30rem;
+    padding: 5rem 5rem;
     border: 0.2rem black solid;
     position: static;
 }
@@ -45,4 +44,13 @@ img {
 }
 .box-hi p {
     display: inline-block;
+}
+.box-hi__atrib {
+    position: relative;
+    width: 8rem;
+    font-weight: bold;
+    color: red;
+}
+.box-hi__res {
+    position: relative;
 }
