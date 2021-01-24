@@ -12,7 +12,6 @@ body {
 .box {
     padding: 2rem;
     padding-left: 10rem;
-    text-align: justify;
     font-size: 2.0rem;
 }
 .title {
@@ -27,10 +26,6 @@ body {
     top: 3rem;
     border: 0.2rem black solid;
 }
-img {
-    width: 100%;
-    height: 100%;
-}
 .parent {
     font-size: 1.6rem;
     background-color: gainsboro;
@@ -42,4 +37,12 @@ img {
     min-height: 50rem;
     padding: 7.5rem 5rem;
     border: 0.2rem black solid;
+    position: static;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.box-hi p {
+    display: inline-block;
 }
